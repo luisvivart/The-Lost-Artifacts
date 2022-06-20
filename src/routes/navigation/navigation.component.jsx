@@ -11,8 +11,11 @@ function Navigation () {
                 <TLAlogo classname="logo" />
             </Link>
             
-            <div className='links-container'>
+            <div className='nav-links-container'>
                 <Link className='nav-link' to="/shop">SHOP</Link>
+                <Link className='nav-link' to="/contact">CONTACT</Link>
+                <Link className='nav-link' to="/about">ABOUT</Link>
+
             </div>
         </div>
           <Outlet />

@@ -1,32 +1,33 @@
 .navigation {
-    height: 70px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 25px;
-  
-    .logo-container {
-      height: auto;
-      width: 70px;
-      padding: 25px;
-    }
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
 
-    .logo {
-      height: auto;
-      width:20px;
-    }
-  
-    .nav-links-container {
-      width: 50%;
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-  
-      .nav-link {
-        padding: 10px 15px;
-        cursor: pointer;
-      }
+  .logo-container {
+    height: auto;
+    width: 120px;
+    padding: 15px;
+  }
+
+  svg {
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+  }
+
+  .nav-links-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right:10px;
+
+    .nav-link {
+      padding: 10px 15px;
+      cursor: pointer;
     }
   }
-  
+}
